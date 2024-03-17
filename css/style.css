@@ -1,0 +1,78 @@
+/*Reset Pages*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Main Style*/
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #F3E5D8;
+}
+/*Section*/
+.imge img{
+    width: 750px;
+}
+.desgin{
+    padding: 2rem;
+    background-color: #ffffff;
+    border: 1px solid aliceblue;
+    border-radius: 1.5%;
+    /* margin: 15rem!important; */
+}
+.border{
+    padding: 1rem;
+    border: 1px solid #FFF7FC;
+    background-color:#FFF7FC;
+}
+.color {
+    color: #801F4F!important;
+    font-weight: bold!important;
+}
+.bolder{
+    font-weight: bolder!important;
+    font-size:20px; 
+}
+.me-5 li{
+    width: 115%!important;
+}
+span{
+    font-weight: bolder;
+}
+/*Responsive Designe*/
+@media (min-width: 912px) {
+    .desgin{
+    width: 912px !important;
+    margin: auto!important;
+    }
+}
+@media (min-width: 768px) {
+    .desgin{
+    width:768px !important;
+    margin: auto!important;
+    }
+}
+@media (min-width: 745px){
+    .desgin{
+        width: 745px !important;
+        margin: auto!important;
+        }
+}
+@media (min-width: 720px){
+    .desgin{
+        width: 720px !important;
+        margin: auto!important;
+        }
+}
+@media (max-width: 280px){
+    .desgin{
+        width: 280px !important;
+        margin: auto!important;
+        }
+        .border h2 {
+            width: 118%!important;
+        }
+        .Instructions ul li {
+            width: 200%!important;
+        }
+}
